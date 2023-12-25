@@ -16,6 +16,7 @@ loan_status is the predictions.
 * Provide basic information about the variables you were trying to predict (e.g., `value_counts`).
 
 Original data:
+
 loan_status
 
 0     75036
@@ -23,6 +24,7 @@ loan_status
 1     2500
 
 Oversampled:
+
 loan_status
 
 0    56271
@@ -92,11 +94,11 @@ loan_status
 Using bulleted lists, describe the balanced accuracy scores and the precision and recall scores of all machine learning models.
 
 * Machine Learning Model 1:
-  *Description of Model 1 
-  *Accuracy 0.99,
-  *Precision class 0: 1.00
+  * Description of Model 1 
+  * Accuracy 0.99,
+  * Precision class 0: 1.00
              class 1: 0.85
-  *Recall scores class 0: 0.99
+  * Recall scores class 0: 0.99
                  class 1: 0.91
     
 
@@ -119,7 +121,8 @@ Summarize the results of the machine learning models, and include a recommendati
 
 In summary, the logistic regression model demonstrates strong overall performance, particularly excelling in predicting class 0 (Healthy Loan). The precision and recall scores for this class are exceptionally high, indicating a robust ability to correctly identify healthy loans without many false positives or negatives.
 
-For class 1 (High-Risk Loan), the precision level is 0.84, and the recall is 0.91. This suggests that the model is more prone to false positives than false negatives, indicating a tendency to predict high-risk loans when they might not be as prevalent.
+For class 1 (High-Risk Loan), the precision level is 0.85, and the recall is 0.91. This suggests that the model is more prone to false positives than false negatives, indicating a tendency to predict high-risk loans when they might not be as prevalent. It's noteworthy that the resampled data model shows an improved recall of 0.99.
+
 
 Considering these results, the logistic regression model appears to be well-suited for predicting both healthy loans and high-risk loans. 
 

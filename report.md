@@ -121,7 +121,8 @@ If you do not recommend any of the models, please justify your reasoning.
 
 In summary, the logistic regression model demonstrates strong overall performance, particularly excelling in predicting class 0 (Healthy Loan). The precision and recall scores for this class are exceptionally high, indicating a robust ability to correctly identify healthy loans without many false positives or negatives.
 
-For class 1 (High-Risk Loan), the precision level is 0.84, and the recall is 0.91. This suggests that the model is more prone to false positives than false negatives, indicating a tendency to predict high-risk loans when they might not be as prevalent.
+For class 1 (High-Risk Loan), the precision level is 0.85, and the recall is 0.91. This suggests that the model is more prone to false positives than false negatives, indicating a tendency to predict high-risk loans when they might not be as prevalent. It's noteworthy that the resampled data model shows an improved recall of 0.99.
+
 
 Considering these results, the logistic regression model appears to be well-suited for predicting both healthy loans and high-risk loans. 
 
